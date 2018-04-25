@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(245, 245, 245)
+}
+
+#text {
+  font-family: Console, sans-serif;
+  font-size: 20px;
+  color: rgb(72, 10, 7);
+  text-align: center;
+}
+
+h1 {
+  font-family: Console, sans-serif;
+  font-size: 40px;
+  color: rgb(72, 10, 7);
+  text-align: center;
+}
+
+h2 {
+  font-family: Console, sans-serif;
+  font-size: 40px;
+  color: rgb(30, 120, 7);
+  text-align: center;
+}
+
+
+.middle {
+  text-align: center;
+}
+
+a {
+  font-family: Console, sans-serif;
+  font-size: 20px;
+/*  color: rgb(30, 120, 7);*/
+  text-decoration-color: currentcolor;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+}
+
+
+a:hover {
+  font-size: 22px;
+}
+
+h3 {
+  font-family: Console, sans-serif;
+  font-size: 40px;
+  color: orange;
+  text-align: center;
+}
+
+.color-orange {
+  color: orange;
+}
+
+.color-green {
+  color: rgb(30, 120, 7);
+}
+table {
+  font-family: Console, sans-serif;
+  font-size: 20px;
+  color: orange;
+  text-align: center;
+}
+
+img {
+  width: 350px;
+  text-align: center;
+}
+
+.card {
+  width: 500px;        /* Set the width */
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
