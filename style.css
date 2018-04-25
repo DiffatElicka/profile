@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+#larger{
+  font-size: 30px;
+}
+
 h1 {
   font-family: Console, sans-serif;
   font-size: 40px;
